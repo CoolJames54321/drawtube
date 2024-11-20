@@ -1,0 +1,54 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.auth-buttons button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 2rem;
+}
+
+.upload-section {
+  text-align: center;
+}
+
+.upload-area {
+  border: 2px dashed #aaa;
+  padding: 2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #aaa;
+}

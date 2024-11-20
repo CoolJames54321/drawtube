@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DrawTube</title>
+  <link rel="stylesheet" href="style.css"> <!-- Linking the CSS -->
+</head>
+<body>
+  <header>
+    <h1>DrawTube</h1>
+    <div class="auth-buttons">
+      <button id="login-btn">Login</button>
+      <button id="signup-btn">Sign Up</button>
+    </div>
+  </header>
+  <main>
+    <section class="upload-section">
+      <h2>Upload Your Drawings</h2>
+      <div class="upload-area" id="upload-area">
+        Drag and drop your file here or click to upload.
+      </div>
+      <input type="file" id="file-input" accept="image/*" style="display: none;">
+    </section>
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 DrawTube. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script> <!-- Linking the JavaScript -->
+</body>
+</html>
